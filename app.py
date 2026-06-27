@@ -94,12 +94,6 @@ st.markdown("""
         line-height: 1.5;
     }
     
-    .dish-img {
-        border-radius: 14px;
-        margin-bottom: 15px;
-        border: 1px solid #2D2824;
-    }
-
     .premium-footer {
         text-align: center;
         background: #1C1917;
@@ -118,7 +112,7 @@ st.markdown("""
 
 # Render de la Cabecera con el LOGO oficial centrado
 st.markdown('<div class="brand-header">', unsafe_allow_html=True)
-st.image("https://i.ibb.co/vmtw8sT/HD5S4qn3.jpg", width=160, use_container_width=False)
+st.image("https://i.ibb.co/HD5S4qn/HD5S4qn3.jpg", width=150)
 st.markdown('</div>', unsafe_allow_html=True)
 
 # Sistema de pestañas premium
@@ -149,16 +143,16 @@ with tab1:
     render_plato("Parrilla Personal", "150 Bs.", "1 Unidad de Chorizo, 150g de Vacío, 100g de Chuleta de Cerdo, 50g de Asado de Tira, 50g de Filete de Pollo, Ubre y Tripas.")
     render_plato("Parrilla Bi Personal", "190 Bs.", "2 Unidades de Chorizo, 300g de Vacío, 150g de Chuleta de Cerdo, 100g de Asado de Tira, 100g de Filete de Pollo, Ubre y Tripas.")
     
-    # Plato Estrella con Foto: Parrilla Tri Personal
+    # Foto: Parrilla Tri Personal
     render_plato("Parrilla Tri Personal", "230 Bs.", "3 Unidades de Chorizo, 500g de Vacío, 300g de Chuleta de Cerdo, 200g de Asado de Tira, 200g de Filete de Pollo, Ubre y Tripas.")
-    st.image("https://i.ibb.co/YyY7v2R/cSNP4dJL.jpg", use_container_width=True)
+    st.image("https://i.ibb.co/xPbrNFF/xPbrNFF.jpg", use_container_width=True)
 
 with tab2:
     st.markdown('<div class="section-title">Especialidades de la Casa</div>', unsafe_allow_html=True)
     
-    # Plato Estrella con Foto: Bife de Chorizo
+    # Foto: Bife de Chorizo
     render_plato("Bife de Chorizo", "90 Bs.", "150g de Bife de Chorizo premium. Servido con arroz con queso o graneado, papas fritas y ensalada.")
-    st.image("https://i.ibb.co/vYfTbyV/jPsb09MM.jpg", use_container_width=True)
+    st.image("https://i.ibb.co/jPsb09M/jPsb09MM.jpg", use_container_width=True)
     
     render_plato("Brocheta Chaquito", "90 Bs.", "80g de Churrasco intercalado con tripitas, ubre, filete de pollo, cebolla y morrón asado. Con arroz con queso, papas y ensalada.")
     render_plato("Filete de Res", "100 Bs.", "150g de Filete de Res. Acompañado con arroz con queso o graneado, papas fritas y ensalada.")
@@ -174,17 +168,17 @@ with tab3:
     render_plato("Chorizo al Plato", "60 Bs.", "3 Unidades de chorizo criollo de la casa, servidos con arroz con queso o graneado, papas fritas o yucas y ensalada.")
     render_plato("Pacumuto Entero", "60 Bs.", "100g de churrasco ensartado con chorizo, tripitas y ubre. Con arroz con queso o graneado, papas y ensalada.")
     
-    # Plato Estrella con Foto: Asado de Tira
+    # Foto: Asado de Tira
     render_plato("Asado de Tira", "60 Bs.", "200g de tira delgada corte especial a la parrilla, arroz con queso o graneado, papas fritas o yucas y ensalada.")
-    st.image("https://i.ibb.co/vH0XmS1/1JYGdTh3.jpg", use_container_width=True)
+    st.image("https://i.ibb.co/1JYGdTh/1JYGdTh3.jpg", use_container_width=True)
     
     st.markdown('<div class="section-title">Piqueos para Compartir</div>', unsafe_allow_html=True)
     render_plato("Antojito", "40 Bs.", "1 Chorizo picado y 1 porción de vacío picado, con pan artesanal a la parrilla y salsa chimichurri.")
     render_plato("Capricho", "60 Bs.", "1.5 chorizos picados, 2 porciones de vacío picado y 1 filete de pollo troceado. Con papas fritas, pan y chimichurri.")
     
-    # Plato Estrella con Foto: Al Límite (Piqueo Grande)
+    # Foto: Al Límite (Piqueo Grande)
     render_plato("Al Límite (Piqueo Grande)", "80 Bs.", "Piqueo generoso de 2 chorizos picados, 3 porciones de vacío picado y 2 filetes de pollo. Con papas fritas, pan y chimichurri.")
-    st.image("https://i.ibb.co/Xz9tM04/xPbrNFF.jpg", use_container_width=True)
+    st.image("https://i.ibb.co/cSNP4dL/cSNP4dJL.jpg", use_container_width=True)
     
     st.markdown('<div class="section-title">Opciones Express y Extras</div>', unsafe_allow_html=True)
     render_plato("Choripán de la Casa", "15 Bs.", "Chorizo criollo al carbón en pan crujiente con lechuga, tomate, papas al hilo y chimichurri.")
