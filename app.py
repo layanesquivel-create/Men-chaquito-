@@ -142,7 +142,7 @@ st.markdown("""
 st.markdown("""
     <div class="brand-header">
         <div class="brand-title">EL CHAQUITO DE FELIPE</div>
-        <div class="brand-subtitle">Alta Parrilla & Maridaje</div>
+        <div class="brand-subtitle">La mejor parrilla de la ciudad</div>
     </div>
 """, unsafe_allow_html=True)
 
