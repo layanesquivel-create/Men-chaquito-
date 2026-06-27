@@ -187,14 +187,14 @@ with tab3:
 
 with tab4:
     st.markdown('<div class="section-title">Jugos Naturales</div>', unsafe_allow_html=True)
-    render_plato("Jarra Grande (De Temporada)", "20 Bs.", "Ideal para compartir en la mesa.")
-    render_plato("Jarra Mediana (De Temporada)", "15 Bs.", "Preparados al instante con fruta fresca.")
+    render_plato("Jarra Grande ", "20 Bs.", "Ideal para compartir en la mesa.")
+    render_plato("Jarra Mediana ", "15 Bs.", "Preparados al instante con fruta fresca.")
     render_plato("Vaso Personal / Frutal 1L", "5 Bs. / 15 Bs.", "Opciones individuales y botellas frutales.")
     
     st.markdown('<div class="section-title">Gaseosas y Cervezas</div>', unsafe_allow_html=True)
     render_plato("Línea de Gaseosas", "3 Bs. a 20 Bs.", "Formatos: Personal 330ml (3 Bs.), 500ml (10 Bs.), 1 Litro (12 Bs.) y 2 Litros (20 Bs.).")
-    render_plato("Cerveza Huari (620ml)", "25 Bs.", "Tradición cervecera de pureza excepcional.")
-    render_plato("Cerveza Paceña (620ml)", "24 Bs.", "La cerveza insignia, helada y refrescante.")
+    render_plato("Cerveza Huari (620ml)", "35 Bs.", "Tradición cervecera de pureza excepcional.")
+    render_plato("Cerveza Paceña (620ml)", "30 Bs.", "La cerveza insignia, helada y refrescante.")
 
 with tab5:
     st.markdown('<div class="section-title">Vinos Clásicos del Sur</div>', unsafe_allow_html=True)
