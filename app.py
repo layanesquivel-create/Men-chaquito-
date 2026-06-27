@@ -93,24 +93,10 @@ st.markdown("""
         color: #A19B93;
         line-height: 1.5;
     }
-    
-    .premium-footer {
-        text-align: center;
-        background: #1C1917;
-        border: 1px solid #2D2824;
-        padding: 25px 15px;
-        border-radius: 16px;
-        margin-top: 20px;
-    }
-    .footer-info-row {
-        font-size: 13px;
-        color: #CBD5E1;
-        margin-bottom: 6px;
-    }
     </style>
 """, unsafe_allow_html=True)
 
-# Render de la Cabecera con el LOGO oficial centrado
+# Render de la Cabecera con el LOGO oficial centrado (Enlace Directo Optimizado)
 st.markdown('<div class="brand-header">', unsafe_allow_html=True)
 st.image("https://i.ibb.co/HD5S4qn/HD5S4qn3.jpg", width=150)
 st.markdown('</div>', unsafe_allow_html=True)
@@ -143,14 +129,14 @@ with tab1:
     render_plato("Parrilla Personal", "150 Bs.", "1 Unidad de Chorizo, 150g de Vacío, 100g de Chuleta de Cerdo, 50g de Asado de Tira, 50g de Filete de Pollo, Ubre y Tripas.")
     render_plato("Parrilla Bi Personal", "190 Bs.", "2 Unidades de Chorizo, 300g de Vacío, 150g de Chuleta de Cerdo, 100g de Asado de Tira, 100g de Filete de Pollo, Ubre y Tripas.")
     
-    # Foto: Parrilla Tri Personal
+    # Foto Corregida: Parrilla Tri Personal
     render_plato("Parrilla Tri Personal", "230 Bs.", "3 Unidades de Chorizo, 500g de Vacío, 300g de Chuleta de Cerdo, 200g de Asado de Tira, 200g de Filete de Pollo, Ubre y Tripas.")
-    st.image("https://i.ibb.co/xPbrNFF/xPbrNFF.jpg", use_container_width=True)
+    st.image("https://i.ibb.co/cSNP4dL/cSNP4dJL.jpg", use_container_width=True)
 
 with tab2:
     st.markdown('<div class="section-title">Especialidades de la Casa</div>', unsafe_allow_html=True)
     
-    # Foto: Bife de Chorizo
+    # Foto Corregida: Bife de Chorizo
     render_plato("Bife de Chorizo", "90 Bs.", "150g de Bife de Chorizo premium. Servido con arroz con queso o graneado, papas fritas y ensalada.")
     st.image("https://i.ibb.co/jPsb09M/jPsb09MM.jpg", use_container_width=True)
     
@@ -168,7 +154,7 @@ with tab3:
     render_plato("Chorizo al Plato", "60 Bs.", "3 Unidades de chorizo criollo de la casa, servidos con arroz con queso o graneado, papas fritas o yucas y ensalada.")
     render_plato("Pacumuto Entero", "60 Bs.", "100g de churrasco ensartado con chorizo, tripitas y ubre. Con arroz con queso o graneado, papas y ensalada.")
     
-    # Foto: Asado de Tira
+    # Foto Corregida: Asado de Tira
     render_plato("Asado de Tira", "60 Bs.", "200g de tira delgada corte especial a la parrilla, arroz con queso o graneado, papas fritas o yucas y ensalada.")
     st.image("https://i.ibb.co/1JYGdTh/1JYGdTh3.jpg", use_container_width=True)
     
@@ -176,9 +162,9 @@ with tab3:
     render_plato("Antojito", "40 Bs.", "1 Chorizo picado y 1 porción de vacío picado, con pan artesanal a la parrilla y salsa chimichurri.")
     render_plato("Capricho", "60 Bs.", "1.5 chorizos picados, 2 porciones de vacío picado y 1 filete de pollo troceado. Con papas fritas, pan y chimichurri.")
     
-    # Foto: Al Límite (Piqueo Grande)
+    # Foto Corregida: Al Límite (Piqueo Grande)
     render_plato("Al Límite (Piqueo Grande)", "80 Bs.", "Piqueo generoso de 2 chorizos picados, 3 porciones de vacío picado y 2 filetes de pollo. Con papas fritas, pan y chimichurri.")
-    st.image("https://i.ibb.co/cSNP4dL/cSNP4dJL.jpg", use_container_width=True)
+    st.image("https://i.ibb.co/xPbrNFF/xPbrNFF.jpg", use_container_width=True)
     
     st.markdown('<div class="section-title">Opciones Express y Extras</div>', unsafe_allow_html=True)
     render_plato("Choripán de la Casa", "15 Bs.", "Chorizo criollo al carbón en pan crujiente con lechuga, tomate, papas al hilo y chimichurri.")
